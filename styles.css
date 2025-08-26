@@ -11,11 +11,18 @@
     margin: 5px;
     vertical-align: baseline;
 }
-
-.recipes_list ul li a{
+.recipes_list ul li a, a{
     text-decoration: none;
     color: red;
     padding: 10px;
+    font-size: 16px;
+    width: max-content;
+}
+a{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 48px;
 }
 .header_recipes {
     display: inline-block;
