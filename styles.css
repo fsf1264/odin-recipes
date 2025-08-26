@@ -9,17 +9,18 @@
     list-style: none;
     padding: 20px;
     margin: 5px;
-  
+    vertical-align: baseline;
 }
 
 .recipes_list ul li a{
     text-decoration: none;
     color: red;
+    padding: 10px;
 }
 .header_recipes {
     display: inline-block;
-    padding: 10px;
-
+    padding: 10px 0px;
+    vertical-align: baseline;
 }
 
 .recipes_list {
