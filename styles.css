@@ -1,3 +1,31 @@
 *{
     font-family: "Copperplate", 'Courier New', Courier, monospace;
 }
+.wrapper{
+    display: inline-block;
+}
+.recipes_list ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+  
+}
+
+.recipes_list ul li a{
+    text-decoration: none;
+    color: red;
+}
+.header_recipes {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.recipes_list {
+display: inline-block;
+margin-left: 0px;
+}
+.recipes_list ul{
+    padding: 0px;
+}
