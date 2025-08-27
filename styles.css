@@ -71,3 +71,6 @@ margin: 0 auto;
 .columns h2{
 border-top: 3px  dotted red;
 }
+a:hover,ul li a:hover {
+    color: rgb(161, 11, 161);
+}
