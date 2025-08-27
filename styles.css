@@ -1,12 +1,15 @@
 *{
     font-family: "Copperplate", 'Courier New', Courier, monospace;
+    
 }
 .wrapper{
     width: 100%;
 }
+ul li{
+list-style: none;
+}
 .recipes_list ul li{
     display: inline-block;
-    list-style: none;
     padding: 20px;
     margin: 5px;
     vertical-align: baseline;
@@ -42,7 +45,6 @@ margin-left: 0px;
     padding: 0px;
 }
 .recipe_item {
-
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -50,4 +52,22 @@ margin-left: 0px;
 .recipe_item h1{
     font-size: 54px;
     padding: 10px;
+}
+.columns{
+width: 100%;
+display: inline-block;
+margin: 0 auto;
+}
+.first_column,.second_column{
+    padding: 20px;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+.first_column{
+    margin-left: 150px;
+    margin-right: 80px;
+}
+.columns h2{
+border-top: 3px  dotted red;
 }
