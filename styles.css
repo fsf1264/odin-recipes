@@ -16,7 +16,7 @@ list-style: none;
 }
 .recipes_list ul li a, .home_link a{
     text-decoration: none;
-    color: #ff0000;
+    color: rgb(255, 0, 0);
     padding: 10px;
     font-size: 16px;
     width: max-content;
@@ -69,7 +69,7 @@ margin: 0 auto;
     margin-right: 80px;
 }
 .columns h2{
-border-top: 3px  dotted red;
+border-top: 3px  dotted rgb(255, 0, 0);
 }
 a:hover,ul li a:hover {
     color: rgb(161, 11, 161);
