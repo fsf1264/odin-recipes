@@ -11,18 +11,19 @@
     margin: 5px;
     vertical-align: baseline;
 }
-.recipes_list ul li a, a{
+.recipes_list ul li a, .home_link a{
     text-decoration: none;
     color: #ff0000;
     padding: 10px;
     font-size: 16px;
     width: max-content;
 }
-a{
+.home_link a{
     display: block;
     width: 100px;
-    margin: 0 auto;
-    font-size: 48px;
+    margin-right: auto;
+    font-size: 36px;
+
 }
 .header_recipes {
     display: inline-block;
@@ -39,4 +40,14 @@ margin-left: 0px;
 }
 .recipes_list ul{
     padding: 0px;
+}
+.recipe_item {
+
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.recipe_item h1{
+    font-size: 54px;
+    padding: 10px;
 }
